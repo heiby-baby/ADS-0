@@ -1,17 +1,14 @@
 // Copyright 2021 NNTU-CS
 
 int gcd(int a, int b) {
-    while (arg1 != arg2)
-    {
-        if (arg1 > arg2)
-        {
-            arg1 -= arg2;
+    while (a != b){
+        if (a > b){
+            a -= b;
         }
-        else
-        {
-            arg2 -= arg1;
-            }
+        else{
+            b -= a;
+        }
     }
-    return arg1;
+    return a;
 }
 
